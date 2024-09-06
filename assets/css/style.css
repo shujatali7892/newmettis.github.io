@@ -120,9 +120,7 @@ header .navbar-nav .nav-item .nav-link:hover   {
   color: var(--mg-secondry) ;
   border-bottom: 1px solid var(--nav-color);
 }
-main{
-  /* margin-top: 0.7rem; */
-} 
+ 
 nav .search{
   position: relative;
   box-shadow: 0 0 40px rgba(51, 51, 51, .1);
@@ -262,9 +260,7 @@ padding: 5px;
 .leatestnews i{
   color: var(--mg-color) !important;
 }
-.updatens-img{
-  
-}
+ 
 .updatens-img img {
   height: 40vh;
   width: 100%;
@@ -469,13 +465,7 @@ nav .container{
 .mpnews-img img{
   width: 100%;
 }
-.highcharts-figure,
-.highcharts-data-table table {
-    /* min-width: 360px;
-    max-width: 800px;
-    margin: 1em auto; */
-}
-
+ 
 .highcharts-data-table table {
     font-family: Verdana, sans-serif;
     border-collapse: collapse;
@@ -542,10 +532,7 @@ nav .container{
   color: var(--mg-secondry);
   border-bottom: 2px solid var(--mg-secondry);
 }
-
-.table-tabsscn { 
-   
-}
+ 
 .table-tabsscn  ul{
   background-color: var(--mg-subbg);
   justify-content: space-between;
@@ -1051,9 +1038,7 @@ border-radius: 0px !important;
 .singlenews-img img:hover{ 
   box-shadow: 0px 0px 5px  1px var(--mg-hover-color)  inset;
 }
-.singlpost-links{
-
-}
+ 
 .singlpost-links .social-links{
   background-color: transparent;
   padding: 10px 5px;
@@ -1619,9 +1604,7 @@ color: var(--mg-color);
   color: var(--mg-color);
   font-weight: 600;
 }
-.latest-tabs .subnews-img {
-  
-}
+ 
 .latest-tabs .subnews-img img{
   height: 20vh;
   width: 100%;
@@ -1655,13 +1638,8 @@ color: var(--mg-color);
     background-size: cover;
     height: 40vh;
 }
-.latestnews h1{
-  /* position: absolute;
-  z-index: 999; */
-}
-.latestnews h1  {
-  color: var(--mg-color) !important;
-}
+ 
+ 
 .latestnews h6{
   color: var(--mg-white);
     /* position: absolute;
@@ -1686,10 +1664,6 @@ color: var(--mg-color);
  background-color: var(--mg-secondry); 
 }
  
-
-  .boxnews .card:hover .card-footer a{
-  /* letter-spacing: 1px !important; */
-}  
  
 .firstnews-img img{  
   height: 50vh;
@@ -1751,4 +1725,11 @@ color: var(--mg-color);
 .pagenews-dive .news-date label {
   color: var(--mg-color);
   font-size: .9rem;
+}
+.boxshadow:hover{
+  box-shadow: 5px 5px 10px 1px #80808010, -5px -5px 10px 1px #80808010;
+}
+.boximgs:hover img{
+  box-shadow: 5px 5px 10px 1px #80808010, -5px -5px 10px 1px #80808010;
+  border-radius: 4px;
 }
