@@ -13,9 +13,7 @@
   .mg-terminal{ 
     height: 40vh; 
 } 
-    .mg-about{ 
-      height: 40vh; 
-  } 
+   
   footer  .page-link  ul{
     display: flex;
     justify-content: space-evenly;
@@ -46,7 +44,7 @@
     height: 30vh; 
 } 
 .mg-about{ 
-   height: 50vh; 
+   /* height: 50vh;  */
 } 
 
   footer .social-links ul {
