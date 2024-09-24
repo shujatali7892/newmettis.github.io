@@ -1282,6 +1282,9 @@ font-size: 1rem;
 .latest-title h1{
   color: var(--mg-color);
 }
+.latest-title h3{
+  color: var(--mg-color);
+}
 .rates-tables h4{
 color: var(--mg-color);
 }
@@ -1766,4 +1769,13 @@ border-color: var(--mg-color);
   background-color: var(--mg-secondry);
   padding: 15px;
   color: var(--mg-color);
+}
+th, td{
+  border: 1px solid #c1bcaf !important;
+}
+header .dropdown-item.active, .dropdown-item:active {
+  color: var(--bs-dropdown-link-active-color);
+  text-decoration: none;
+  background-color: var(--mg-color) !important;
+  
 }
